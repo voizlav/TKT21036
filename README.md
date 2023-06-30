@@ -10,15 +10,15 @@ First part of DevOps with Docker course series. This course is an introduction t
 
 #### Running and stopping containers
 
-1. [] EXERCISE 1.3: SECRET MESSAGE
-2. [] EXERCISE 1.4: MISSING DEPENDENCIES
+1. [ ] EXERCISE 1.3: SECRET MESSAGE
+2. [ ] EXERCISE 1.4: MISSING DEPENDENCIES
 
 #### In-depth dive to images
 
-1. [] EXERCISE 1.5: SIZES OF IMAGES
-2. [] EXERCISE 1.6: HELLO DOCKER HUB
-3. [] EXERCISE 1.7: IMAGE FOR SCRIPT
-4. [] EXERCISE 1.8: TWO LINE DOCKERFILE
+1. [ ] EXERCISE 1.5: SIZES OF IMAGES
+2. [ ] EXERCISE 1.6: HELLO DOCKER HUB
+3. [ ] EXERCISE 1.7: IMAGE FOR SCRIPT
+4. [ ] EXERCISE 1.8: TWO LINE DOCKERFILE
 
 #### Defining start conditions for the container
 
@@ -26,14 +26,14 @@ First part of DevOps with Docker course series. This course is an introduction t
 
 #### Interacting with the container via volumes and ports
 
-1. [] EXERCISE 1.9: VOLUMES
-2. [] EXERCISE 1.10: PORTS OPEN
+1. [ ] EXERCISE 1.9: VOLUMES
+2. [ ] EXERCISE 1.10: PORTS OPEN
 
 #### Utilizing tools from the Registry
 
-1. [] EXERCISE 1.11: SPRING
-2. [] MANDATORY EXERCISE 1.12: HELLO, FRONTEND!
-3. [] MANDATORY EXERCISE 1.13: HELLO, BACKEND!
-4. [] MANDATORY EXERCISE 1.14: ENVIRONMENT
-5. [] EXERCISE 1.15: HOMEWORK
-6. [] EXERCISE 1.16: CLOUD DEPLOYMENT
+1. [ ] EXERCISE 1.11: SPRING
+2. [ ] MANDATORY EXERCISE 1.12: HELLO, FRONTEND!
+3. [ ] MANDATORY EXERCISE 1.13: HELLO, BACKEND!
+4. [ ] MANDATORY EXERCISE 1.14: ENVIRONMENT
+5. [ ] EXERCISE 1.15: HOMEWORK
+6. [ ] EXERCISE 1.16: CLOUD DEPLOYMENT
