@@ -1,1 +1,10 @@
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+$ sudo docker stop database
+database
+
+$ sudo docker container rm 9d ec 25
+9d
+ec
+25
+
+$ sudo docker ps -as
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
