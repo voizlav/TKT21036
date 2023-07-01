@@ -1,0 +1,31 @@
+$ sudo docker pull devopsdockeruh/simple-web-service:ubuntu
+
+$ sudo docker pull devopsdockeruh/simple-web-service:alpine
+
+$ sudo docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+ubuntu                              18.04     f9a80a55f492   4 weeks ago   63.2MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   2 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   2 years ago   15.7MB
+
+$ sudo docker run -d -it devopsdockeruh/simple-web-service:alpine
+b9277d19f073d11e8ffe50f63feeef481f171d498b2a2ae856c6d631884caab0
+
+$ sudo docker ps -a
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+b9277d19f073   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   8 minutes ago   Up 8 minutes             modest_wilbur
+
+$ sudo docker exec -it modest_wilbur sh
+/usr/src/app # ls -la
+total 9888
+drwxr-xr-x    1 root     root          4096 Jul  1 11:24 .
+drwxr-xr-x    1 root     root          4096 Mar 14  2021 ..
+-rwxr-xr-x    1 root     root      10085718 Mar 14  2021 server
+-rw-r--r--    1 root     root         16745 Jul  1 11:36 text.log
+/usr/src/app # tail -5 text.log
+2023-07-01 11:36:08 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-07-01 11:36:10 +0000 UTC
+2023-07-01 11:36:12 +0000 UTC
+2023-07-01 11:36:14 +0000 UTC
+/usr/src/app # 
