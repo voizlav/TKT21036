@@ -1,4 +1,6 @@
-CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS                      PORTS     NAMES
-46e70c5f251f   node       "docker-entrypoint.s…"   2 minutes ago    Up 2 minutes                          elegant_brattain
-4bbaf2f03724   redis      "docker-entrypoint.s…"   9 minutes ago    Exited (0) 9 minutes ago              practical_pascal
-559908616e72   postgres   "docker-entrypoint.s…"   41 minutes ago   Exited (0) 59 seconds ago             fervent_swartz
+$ sudo docker ps -a
+CONTAINER ID   IMAGE      COMMAND                  CREATED          STATUS                      PORTS      NAMES
+25f127276030   nginx      "/docker-entrypoint.…"   7 minutes ago    Exited (0) 13 seconds ago              web-server
+ece80b737126   node       "docker-entrypoint.s…"   10 minutes ago   Exited (0) 10 minutes ago              node-js
+9d8193d29e32   postgres   "docker-entrypoint.s…"   16 minutes ago   Up 16 minutes               5432/tcp   database
+
