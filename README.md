@@ -10,7 +10,7 @@ First part of DevOps with Docker course series. This course is an introduction t
 
 #### Running and stopping containers
 
-1. [ ] EXERCISE 1.3: SECRET MESSAGE
+1. [x] EXERCISE 1.3: SECRET MESSAGE
 2. [ ] EXERCISE 1.4: MISSING DEPENDENCIES
 
 #### In-depth dive to images
