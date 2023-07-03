@@ -18,7 +18,7 @@ First part of DevOps with Docker course series. This course is an introduction t
 1. [x] EXERCISE 1.5: SIZES OF IMAGES
 2. [x] EXERCISE 1.6: HELLO DOCKER HUB
 3. [x] EXERCISE 1.7: IMAGE FOR SCRIPT
-4. [ ] EXERCISE 1.8: TWO LINE DOCKERFILE
+4. [x] EXERCISE 1.8: TWO LINE DOCKERFILE
 
 #### Defining start conditions for the container
 
