@@ -1,0 +1,11 @@
+$ sudo docker run -v $(pwd)/text.log:/usr/src/app/text.log devopsdockeruh/simple-web-service
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+
+
+$ cat text.log 
+2023-07-04 11:17:33 +0000 UTC
+2023-07-04 11:17:35 +0000 UTC
+2023-07-04 11:17:37 +0000 UTC
