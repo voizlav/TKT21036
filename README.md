@@ -26,7 +26,7 @@ First part of DevOps with Docker course series. This course is an introduction t
 
 #### Interacting with the container via volumes and ports
 
-1. [ ] EXERCISE 1.9: VOLUMES
+1. [x] EXERCISE 1.9: VOLUMES
 2. [ ] EXERCISE 1.10: PORTS OPEN
 
 #### Utilizing tools from the Registry
