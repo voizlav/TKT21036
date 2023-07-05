@@ -1,0 +1,7 @@
+$ sudo docker build . -t frontend-project:v2
+
+$ sudo docker run --rm -p 127.0.0.1:4321:5000 frontend-project:v2
+
+$ sudo docker build . -t backend-project:v2
+
+$ sudo docker run --rm -p 127.0.0.1:1234:8080 backend-project:v2
