@@ -31,7 +31,7 @@ First part of DevOps with Docker course series. This course is an introduction t
 
 #### Utilizing tools from the Registry
 
-1. [ ] EXERCISE 1.11: SPRING
+1. [x] EXERCISE 1.11: SPRING
 2. [ ] MANDATORY EXERCISE 1.12: HELLO, FRONTEND!
 3. [ ] MANDATORY EXERCISE 1.13: HELLO, BACKEND!
 4. [ ] MANDATORY EXERCISE 1.14: ENVIRONMENT
